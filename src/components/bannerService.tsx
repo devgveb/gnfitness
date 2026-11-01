@@ -7,9 +7,9 @@ export default function BannerService(){
                 <div className="basis-full md:basis-1/2">
                 
                 <div className="flex flex-col py-5">
-                    <p>CALCULADORA</p>
-                    <h3 className="text-4xl font-bold py-1">Entenda seu gasto calórico</h3>
-                    <h4 className="text-xl fond-bold py-2">Uma estimativa para conhecer melhor sua rotina</h4>
+                    <p className="text-md">CALCULADORA</p>
+                    <h3 className="text-2xl md:text-4xl font-bold py-1">Entenda seu gasto calórico</h3>
+                    <h4 className="text-lg md:text-xl fond-bold py-2">Uma estimativa para conhecer melhor sua rotina</h4>
                     <p>Descrubra uma estimativa do seu gasto calórico diário com base em seus dados e nível de atividade física. Essa informação pode ajudar no planejamento dos seus treinos e da sua alimentação.</p>
                 </div>
                 

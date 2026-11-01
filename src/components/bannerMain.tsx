@@ -16,7 +16,7 @@ export default function MainBanners(){
 
               <p className="py-1 text-gray-400 ">CONTEÚDO QUE FAZ A DIFERENÇA</p>
 
-              <h3 className="text-4xl font-bold py-1">Aprenda,pratique e evolua.</h3>
+              <h3 className="text-2xl md:text-4xl font-bold py-1">Aprenda,pratique e evolua.</h3>
 
               <p className="text-gray-400 ">Artigos completos e objetivos para ajudar você a treinar,melhor,<br/>se alimentar e construir uma rotina mais saudável.</p>
 
