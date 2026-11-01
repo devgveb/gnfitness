@@ -4,7 +4,7 @@ export default function BannerService(){
         
                 <section className="containerMain flex flex-wrap flex-row py-5">
 
-                <div className="basis-1/2">
+                <div className="basis-full md:basis-1/2">
                 
                 <div className="flex flex-col py-5">
                     <p>CALCULADORA</p>
@@ -14,30 +14,30 @@ export default function BannerService(){
                 </div>
                 
                 </div>
-                <div className="basis-1/2">
+                <div className="basis-full md:basis-1/2">
                 
                 <form className=" m-5 bg-white p-5 shadow rounded">
 
                     <div className="flex flex-wrap flex-row">
-                    <section className="basis-1/2 flex flex-col">
+                    <section className="basis-full md:basis-1/2 flex flex-col">
                         <label>Idade</label>
                         <input type="number" placeholder="Ex.: 25 " className="border-1 border-gray-400 rounded p-2 m-2"></input>
                     </section>
 
-                    <section className="basis-1/2  flex flex-col">
+                    <section className="basis-full md:basis-1/2 flex flex-col">
                         <label>Peso (Kg)</label>
                         <input type="double" placeholder="Ex.: 76.4 " className="border-1 border-gray-400 rounded p-2 m-2"></input>
                     </section>
-                    <section className="basis-1/2"></section>
+
                     </div>
 
                     <div className="flex flex-wrap flex-row py-2">
-                    <section className="basis-1/2 flex flex-col">
+                    <section className="basis-full md:basis-1/2 flex flex-col">
                         <label>Altura(cm)</label>
                         <input type="number" placeholder="Ex.: 170 " className="border-1 border-gray-400 rounded p-2 m-2"></input>
                     </section>
 
-                    <section className="basis-1/2  flex flex-col">
+                    <section className="basis-full md:basis-1/2  flex flex-col">
                         <label>Nivel de Atividade</label>
                         <select  className="border-1 border-gray-400 rounded p-2.5 m-2">
                         <option>Nivel de Atividade</option>
