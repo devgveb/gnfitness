@@ -7,7 +7,7 @@ export default function BannerHome(){
 
         <div className="w-full h-auto">
           <div className="relative">
-            <Image src={bannerHome} alt="Banner Principal" className=" h-[250px] md:h-[500px] object-fit md:object-cover"/>
+            <Image src={bannerHome} alt="Banner Principal" className=" h-[250px] md:h-[700px] object-fit md:object-cover"/>
 
               <div className="containerMain absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
 
